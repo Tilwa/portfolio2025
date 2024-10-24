@@ -1,0 +1,149 @@
+.sidebar-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto; /* Add vertical scroll if content overflows */
+  overflow-x: hidden; /* Hide horizontal scroll (optional) */
+  overflow: -moz-scrollbars-none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+}
+.sidebar-title {
+  color: rgb(0 177 214);
+  padding-left: 20px;
+  font-family: "system-ui";
+  font-weight: 800;
+  margin-top: 10px;
+  font-size: xx-large;
+}
+.sidebar-designation {
+  color: rgb(119, 119, 119);
+  padding-left: 20px;
+  font-family: "system-ui";
+  font-weight: 400;
+  font-size: large;
+}
+.sidebar-img {
+  width: 100%;
+
+  border-radius: 100%;
+}
+.sidebar-txt {
+  display: flex;
+  padding-left: 20px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  /* background-color: antiquewhite; */
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-color: #00b0d7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#glasses-img {
+  font-size: 45px;
+  color: white;
+}
+.line {
+  width: 1px;
+  height: 30px;
+  background-color: gray;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #00b0d7;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+}
+
+.circle::before {
+  content: "";
+  position: relative;
+  width: 2px;
+  height: 30px;
+  background-color: #00b0d7;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sidebar-right-txt {
+  /* background-color: aquamarine; */
+  margin-top: 55px;
+  padding-left: 5px;
+}
+.sidebar-right-txt-style {
+  color: rgb(119, 119, 119);
+  font-size: large;
+  font-family: "system-ui";
+  font-weight: normal;
+  display: flex;
+}
+.sidebar-txt-title {
+  color: rgb(18, 18, 18);
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+.sidebar-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.social-icons {
+  font-size: x-large;
+  margin: 10px;
+}
+#download-cv {
+  margin-top: 10px;
+  padding: 10px 25px;
+  color: white;
+  font-family: "system-ui";
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: #00b0d7;
+  border: 1px solid rgb(0 177 214);
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.download-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: rgb(0 177 214);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
