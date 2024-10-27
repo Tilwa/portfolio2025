@@ -10,7 +10,7 @@ import Skills from "../skills/Skills";
 import Portfolio from "../portfolio/Portfolio";
 import Contact from "../contact/Contact";
 import Error from "../error/Error";
-import AboutMe from "../../components/aboutMe/AboutMe";
+import AboutMe from "../aboutMe/AboutMe";
 
 const Home = () => {
   return (
@@ -26,7 +26,7 @@ const Home = () => {
           <div className="home-right-bottom-container">
             {/* Routes inside the home page */}
             <Routes>
-              <Route path="/" element={<AboutMe />} />
+              <Route path="/home" element={<AboutMe />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/education" element={<Education />} />
               <Route path="/skills" element={<Skills />} />

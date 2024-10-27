@@ -5,6 +5,10 @@
   align-items: center;
   height: 100%;
 }
+#home-icon {
+  height: 100%;
+  width: 8%;
+}
 .navbar-home-icon {
   background-color: rgb(35, 139, 77);
   flex: 1;

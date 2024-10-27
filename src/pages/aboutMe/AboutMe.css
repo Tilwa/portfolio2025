@@ -1,4 +1,4 @@
-.contact-main {
+.about-me-main {
   display: flex;
   flex-direction: row;
 
@@ -11,13 +11,13 @@
   -ms-overflow-style: none; /* For Internet Explorer and Edge */
   scrollbar-width: none; /* For Firefox */
 }
-.contact-title {
+.about-me-title {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.contact-main-title {
+.about-me-main-title {
   color: rgb(18, 18, 18);
   font-family: "system-ui";
   font-weight: 800;
@@ -30,7 +30,7 @@
   border-radius: 50px;
 }
 
-.contact-desc {
+.about-me-desc {
   flex: 2;
   display: flex;
   flex-direction: row;

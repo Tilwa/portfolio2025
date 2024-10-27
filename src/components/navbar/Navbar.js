@@ -7,9 +7,11 @@ import { FaEnvelopeOpen } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div className="navbar-container">
-      <button className="navbar-home-icon">
-        <FaHome />
-      </button>
+      <Link to="/home" id="home-icon">
+        <div className="navbar-home-icon">
+          <FaHome />
+        </div>
+      </Link>
       <nav className="navbar-menu">
         <ul>
           <li>
@@ -30,12 +32,14 @@ const Navbar = () => {
         </ul>
       </nav>
       <div className="hire-me-btn">
-        <button id="hire-me">
-          Hire Me
-          <div className="hire-me-icon">
-            <FaEnvelopeOpen />
-          </div>
-        </button>
+        <a href="mailto:shahrukhaltaf123@gmail.com?subject=Hire%20Me">
+          <button id="hire-me">
+            Hire Me
+            <div className="hire-me-icon">
+              <FaEnvelopeOpen />
+            </div>
+          </button>
+        </a>
       </div>
     </div>
   );
