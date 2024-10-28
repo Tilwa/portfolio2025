@@ -7,7 +7,7 @@ import { FaEnvelopeOpen } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div className="navbar-container">
-      <Link to="/home" id="home-icon">
+      <Link to="/" id="home-icon">
         <div className="navbar-home-icon">
           <FaHome />
         </div>
@@ -32,14 +32,18 @@ const Navbar = () => {
         </ul>
       </nav>
       <div className="hire-me-btn">
-        <a href="mailto:shahrukhaltaf123@gmail.com?subject=Hire%20Me">
-          <button id="hire-me">
-            Hire Me
-            <div className="hire-me-icon">
-              <FaEnvelopeOpen />
-            </div>
-          </button>
-        </a>
+        <button
+          id="hire-me"
+          onClick={() => {
+            window.location.href =
+              "https://www.linkedin.com/in/shahrukh-altaf-779896188/";
+          }}
+        >
+          Hire Me
+          <div className="hire-me-icon">
+            <FaEnvelopeOpen />
+          </div>
+        </button>
       </div>
     </div>
   );

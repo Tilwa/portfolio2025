@@ -135,6 +135,10 @@
   margin-bottom: 20px;
 }
 
+#download-cv:hover {
+  background-color: #00b0d7d7;
+}
+
 .download-icon {
   width: 30px;
   height: 30px;

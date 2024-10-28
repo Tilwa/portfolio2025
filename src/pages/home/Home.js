@@ -26,7 +26,7 @@ const Home = () => {
           <div className="home-right-bottom-container">
             {/* Routes inside the home page */}
             <Routes>
-              <Route path="/home" element={<AboutMe />} />
+              <Route path="/" element={<AboutMe />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/education" element={<Education />} />
               <Route path="/skills" element={<Skills />} />

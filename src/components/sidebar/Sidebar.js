@@ -11,7 +11,7 @@ const Sidebar = () => {
         <p className="sidebar-designation">Front-end developer</p>
       </div>
 
-      <img className="sidebar-img" src={ProfilePic} />
+      <img className="sidebar-img" src={ProfilePic} alt="profile" />
       <div className="sidebar-txt">
         <div className="timeline">
           <div className="timeline-item">
@@ -45,19 +45,40 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-btns">
         <div>
-          <i class="devicon-linkedin-plain social-icons"></i>
+          <a
+            href="https://www.linkedin.com/in/shahrukh-altaf-779896188/"
+            style={{ color: "black" }}
+          >
+            <i class="devicon-linkedin-plain social-icons"></i>
+          </a>
+          <a href="https://x.com/ShahrukhAltaf3" style={{ color: "black" }}>
+            <i class="devicon-twitter-original colored social-icons"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/"
+            style={{ color: "black", textDecoration: "none" }}
+          >
+            <i class="devicon-facebook-plain  social-icons"></i>
+          </a>
 
-          <i class="devicon-twitter-original colored social-icons"></i>
-          <i class="devicon-facebook-plain  social-icons"></i>
-
-          <i class="devicon-github-original colored social-icons"></i>
+          <a
+            href="https://github.com/Tilwa"
+            style={{ color: "black", textDecoration: "none" }}
+          >
+            <i class="devicon-github-original colored social-icons"></i>
+          </a>
         </div>
-        <button id="download-cv">
-          Download CV{" "}
-          <div className="download-icon">
-            <FaDownload />
+        <a
+          href="https://drive.google.com/file/d/1A45wR__LqH5B1HKEwVi-WYrj0GWBwozX/view?usp=drive_link"
+          style={{ textDecoration: "none" }}
+        >
+          <div id="download-cv">
+            Download CV{" "}
+            <div className="download-icon">
+              <FaDownload />
+            </div>
           </div>
-        </button>
+        </a>
       </div>
     </div>
   );
