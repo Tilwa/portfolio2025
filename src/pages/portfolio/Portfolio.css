@@ -83,7 +83,9 @@
 .post-card:hover {
   transform: scale(1.05);
 }
-
+#front-banner {
+  width: 100%;
+}
 /* Icon container styling */
 .icon-container {
   position: absolute;

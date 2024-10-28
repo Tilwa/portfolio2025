@@ -1,26 +1,37 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
 import { projects } from "../../resources/projects/projects";
-import Imaging from "../../resources/images/images.png";
+import Imaging from "../../resources/images/demo1.png";
 import { FaEye } from "react-icons/fa";
 import { FaLink } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 import ImageSliderPopup from "../../components/ImageSliderPopup/ImageSliderPopup";
 
 const categories = ["All", "HTML & CSS", "JavaScript", "ReactJS", "NodeJS"];
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [currentProject, setCurrentProject] = useState(null);
 
   const filteredProjects =
     selectedCategory === "All"
       ? projects
       : projects.filter((project) => project.category === selectedCategory);
 
+  const openPopup = (project) => {
+    setCurrentProject(project);
+    setIsPopupOpen(true);
+  };
+
+  const closePopup = () => {
+    setIsPopupOpen(false);
+    setCurrentProject(null);
+  };
+
   return (
     <div className="portfolio-container">
       <div className="portfolio-title">
-        <h1 className="portfolio-main-title">Portfolio</h1>{" "}
+        <h1 className="portfolio-main-title">Portfolio</h1>
         <div className="underline"></div>
       </div>
       <div className="portfolio-main">
@@ -43,20 +54,33 @@ const Portfolio = () => {
         <div className="posts-container">
           {filteredProjects.map((project) => (
             <div key={project.id} className="post-card">
-              <img src={Imaging} alt={project.title} />
+              <img src={Imaging} alt={project.title} id="front-banner" />
               <h3>{project.title}</h3>
-              <div class="icon-container">
-                <div class="icon">
+              <div className="icon-container">
+                <div className="icon" onClick={() => openPopup(project)}>
                   <FaEye />
                 </div>
-                <div class="icon">
-                  <FaLink />
+                <div className="icon">
+                  <a
+                    className="icon"
+                    href="https://github.com/Tilwa/vocabulary-builder"
+                  >
+                    <FaLink />
+                  </a>
                 </div>
               </div>
             </div>
           ))}
         </div>
       </div>
+
+      {/* Image Slider Popup */}
+      {isPopupOpen && (
+        <ImageSliderPopup
+          images={currentProject?.images || []}
+          onClose={closePopup}
+        />
+      )}
     </div>
   );
 };

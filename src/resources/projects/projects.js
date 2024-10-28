@@ -1,9 +1,15 @@
+import Image1 from "../images/demo1.png";
+import Image2 from "../images/demo2.png";
+import Image3 from "../images/demo3.png";
+import Image4 from "../images/demo4.png";
+
 export const projects = [
   {
     id: 1,
     title: "React ecommerce store",
     category: "React",
     image: "react1.png",
+    images: [Image2, Image1, Image3, Image4],
   },
   {
     id: 2,
