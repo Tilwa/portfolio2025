@@ -34,6 +34,7 @@ const Portfolio = () => {
         <h1 className="portfolio-main-title">Portfolio</h1>
         <div className="underline"></div>
       </div>
+
       <div className="portfolio-main">
         {/* Filter Options */}
         <div className="filter-buttons">
@@ -55,7 +56,7 @@ const Portfolio = () => {
           {filteredProjects.map((project) => (
             <div key={project.id} className="post-card">
               <img src={Imaging} alt={project.title} id="front-banner" />
-              <h3>{project.title}</h3>
+              <h4 className="p-title">{project.title}</h4>
               <div className="icon-container">
                 <div className="icon" onClick={() => openPopup(project)}>
                   <FaEye />

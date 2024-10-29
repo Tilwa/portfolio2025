@@ -67,3 +67,12 @@
   border-bottom-left-radius: 5px;
   width: 95%;
 }
+@media only screen and (max-width: 720px) {
+  .skills-bars-columns {
+    flex: 1;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+  }
+}

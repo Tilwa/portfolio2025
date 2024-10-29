@@ -47,25 +47,28 @@ const Sidebar = () => {
         <div>
           <a
             href="https://www.linkedin.com/in/shahrukh-altaf-779896188/"
-            style={{ color: "black" }}
+            style={{ color: "black", textDecoration: "none" }}
           >
-            <i class="devicon-linkedin-plain social-icons"></i>
+            <i className="devicon-linkedin-plain social-icons"></i>
           </a>
-          <a href="https://x.com/ShahrukhAltaf3" style={{ color: "black" }}>
-            <i class="devicon-twitter-original colored social-icons"></i>
+          <a
+            href="https://x.com/ShahrukhAltaf3"
+            style={{ color: "black", textDecoration: "none" }}
+          >
+            <i className="devicon-twitter-original colored social-icons"></i>
           </a>
           <a
             href="https://www.facebook.com/"
             style={{ color: "black", textDecoration: "none" }}
           >
-            <i class="devicon-facebook-plain  social-icons"></i>
+            <i className="devicon-facebook-plain  social-icons"></i>
           </a>
 
           <a
             href="https://github.com/Tilwa"
             style={{ color: "black", textDecoration: "none" }}
           >
-            <i class="devicon-github-original colored social-icons"></i>
+            <i className="devicon-github-original colored social-icons"></i>
           </a>
         </div>
         <a
