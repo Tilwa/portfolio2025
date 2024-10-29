@@ -123,3 +123,29 @@
 .icon:hover {
   transform: scale(1.1);
 }
+@media only screen and (max-width: 720px) {
+  .portfolio-container {
+    padding: 20px;
+    font-family: "system-ui";
+  }
+  .portfolio-main {
+    /* background-color: #00b0d7; */
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filter-buttons {
+    flex-wrap: wrap;
+  }
+
+  .posts-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .p-title {
+    font-size: small;
+    height: 20px;
+  }
+}

@@ -88,3 +88,22 @@
 .top-margin-title {
   margin-top: 30px;
 }
+@media only screen and (max-width: 720px) {
+  .experience-main {
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px;
+
+    height: 520px; /* Adjust this height to the size you want */
+    overflow-y: auto; /* Enable vertical scrolling for the entire section */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow: -moz-scrollbars-none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-width: none; /* For Firefox */
+  }
+
+  .experience-title {
+    margin-bottom: 30px;
+  }
+}
