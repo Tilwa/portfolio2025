@@ -29,6 +29,7 @@ const Navbar = () => {
         </div>
       </Link>
 
+      {/* slide drawer */}
       <div id="home-icon-mobile">
         <Link
           to="/"
