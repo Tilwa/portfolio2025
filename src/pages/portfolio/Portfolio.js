@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
 import { projects } from "../../resources/projects/projects";
-import Imaging from "../../resources/images/demo1.png";
+import Imaging from "../../resources/images/react/random-quotes1.png";
 import { FaEye } from "react-icons/fa";
 import { FaLink } from "react-icons/fa6";
 import ImageSliderPopup from "../../components/ImageSliderPopup/ImageSliderPopup";
@@ -62,10 +62,7 @@ const Portfolio = () => {
                   <FaEye />
                 </div>
                 <div className="icon">
-                  <a
-                    className="icon"
-                    href="https://github.com/Tilwa/vocabulary-builder"
-                  >
+                  <a className="icon" href={project.link}>
                     <FaLink />
                   </a>
                 </div>
