@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
 import { projects } from "../../resources/projects/projects";
-import Imaging from "../../resources/images/react/random-quotes1.png";
+import RandomQuotes from "../../resources/images/react/randomQuotes/random-quotes1.png";
 import { FaEye } from "react-icons/fa";
 import { FaLink } from "react-icons/fa6";
 import ImageSliderPopup from "../../components/ImageSliderPopup/ImageSliderPopup";
@@ -55,7 +55,7 @@ const Portfolio = () => {
         <div className="posts-container">
           {filteredProjects.map((project) => (
             <div key={project.id} className="post-card">
-              <img src={Imaging} alt={project.title} id="front-banner" />
+              <img src={project.image} alt={project.title} id="front-banner" />
               <h4 className="p-title">{project.title}</h4>
               <div className="icon-container">
                 <div className="icon" onClick={() => openPopup(project)}>
