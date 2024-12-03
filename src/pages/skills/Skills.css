@@ -4,7 +4,7 @@
   /* background-color: antiquewhite; */
   margin: 20px;
 
-  height: 500px; /* Adjust this height to the size you want */
+  height: 520px; /* Adjust this height to the size you want */
   overflow-y: auto; /* Enable vertical scrolling for the entire section */
   overflow-x: hidden; /* Prevent horizontal scrolling */
   overflow: -moz-scrollbars-none; /* For Firefox */

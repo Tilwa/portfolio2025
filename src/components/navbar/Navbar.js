@@ -23,7 +23,7 @@ const Navbar = () => {
   };
   return (
     <div className="navbar-container">
-      <Link to="/" id="home-icon">
+      <Link to="/portfolio2025" id="home-icon">
         <div className="navbar-home-icon">
           <FaHome />
         </div>
@@ -32,7 +32,7 @@ const Navbar = () => {
       {/* slide drawer */}
       <div id="home-icon-mobile">
         <Link
-          to="/"
+          to="/portfolio2025"
           onClick={(e) => {
             e.preventDefault();
             toggleDrawer();
@@ -53,19 +53,19 @@ const Navbar = () => {
       <nav className="navbar-menu">
         <ul>
           <li>
-            <Link to="/experience">Experience</Link>
+            <Link to="/portfolio2025/experience">Experience</Link>
           </li>
           <li>
-            <Link to="/education">Education</Link>
+            <Link to="/portfolio2025/education">Education</Link>
           </li>
           <li>
-            <Link to="/skills">Skills</Link>
+            <Link to="/portfolio2025/skills">Skills</Link>
           </li>
           <li>
-            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/portfolio2025/portfolio">Portfolio</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/portfolio2025/contact">Contact</Link>
           </li>
         </ul>
       </nav>
@@ -95,7 +95,7 @@ const Navbar = () => {
         {/* Menu List */}
         {isOpen && (
           <div className="menu-list">
-            <Link to="/" id="profile-icon">
+            <Link to="/portfolio2025" id="profile-icon">
               <div className="navbar-profile-icon">
                 <FaHome />
               </div>
@@ -103,19 +103,19 @@ const Navbar = () => {
             <nav className="list-links">
               <ul>
                 <li>
-                  <Link to="/experience">Experience</Link>
+                  <Link to="/portfolio2025/experience">Experience</Link>
                 </li>
                 <li>
-                  <Link to="/education">Education</Link>
+                  <Link to="/portfolio2025/education">Education</Link>
                 </li>
                 <li>
-                  <Link to="/skills">Skills</Link>
+                  <Link to="/portfolio2025/skills">Skills</Link>
                 </li>
                 <li>
-                  <Link to="/portfolio">Portfolio</Link>
+                  <Link to="/portfolio2025/portfolio">Portfolio</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/portfolio2025/contact">Contact</Link>
                 </li>
               </ul>
             </nav>

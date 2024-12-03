@@ -35,10 +35,10 @@ const Sidebar = () => {
             <p className="sidebar-txt-title">Birthday</p> : 22/Feb/1993
           </h6>
           <h6 className="sidebar-right-txt-style">
-            <p className="sidebar-txt-title">Position</p> : Front-end developer
+            <p className="sidebar-txt-title">Position</p>: Front-end developer
           </h6>
           <h6 className="sidebar-right-txt-style">
-            <p className="sidebar-txt-title">Email</p> :
+            <p className="sidebar-txt-title">Mail</p> :
             shahrukhaltaf123@gmail.com
           </h6>
         </div>

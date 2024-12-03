@@ -9,7 +9,6 @@ import Education from "../education/Education";
 import Skills from "../skills/Skills";
 import Portfolio from "../portfolio/Portfolio";
 import Contact from "../contact/Contact";
-import Error from "../error/Error";
 import AboutMe from "../aboutMe/AboutMe";
 
 const Home = () => {
@@ -31,8 +30,7 @@ const Home = () => {
               <Route path="/education" element={<Education />} />
               <Route path="/skills" element={<Skills />} />
               <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="*" element={<Error />} />
+              <Route path="/contact" element={<Contact />} />{" "}
             </Routes>
           </div>
         </div>

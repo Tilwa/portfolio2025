@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Error from "./pages/error/Error";
+import NotFound from "./pages/notFound/NotFound";
 
 function App() {
   return (
@@ -9,10 +9,10 @@ function App() {
       <Router>
         <Routes>
           {/* Main Home Route */}
-          <Route path="/*" element={<Home />} />
+          <Route path="/portfolio2025/*" element={<Home />} />
 
           {/* Error Route for any unmatched paths */}
-          <Route path="*" element={<Error />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </div>
