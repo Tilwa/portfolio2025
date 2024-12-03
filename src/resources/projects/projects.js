@@ -15,6 +15,13 @@ import travelTodoList2 from "../images/react/travelTodoList/travelTodoList2.png"
 import travelTodoList3 from "../images/react/travelTodoList/travelTodoList3.png";
 import travelTodoList4 from "../images/react/travelTodoList/travelTodoList4.png";
 
+// react usepopcorn
+import usepopcorn1 from "../images/react/usepopcorn/usepopcorn1.png";
+import usepopcorn2 from "../images/react/usepopcorn/usepopcorn2.png";
+import usepopcorn3 from "../images/react/usepopcorn/usepopcorn3.png";
+import usepopcorn4 from "../images/react/usepopcorn/usepopcorn4.png";
+import usepopcorn5 from "../images/react/usepopcorn/usepopcorn5.png";
+
 //"All", "HTML & CSS", "JavaScript", "ReactJS", "NodeJS"
 export const projects = [
   {
@@ -45,5 +52,13 @@ export const projects = [
       travelTodoList1,
     ],
     link: "https://travel-todo-list-nine.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "IMDB Movies Search Engine",
+    category: "ReactJS",
+    image: usepopcorn1,
+    images: [usepopcorn1, usepopcorn2, usepopcorn3, usepopcorn4, usepopcorn5],
+    link: "https://use-popcorn-five-jet.vercel.app/",
   },
 ];

@@ -6,7 +6,7 @@ import { FaEye } from "react-icons/fa";
 import { FaLink } from "react-icons/fa6";
 import ImageSliderPopup from "../../components/ImageSliderPopup/ImageSliderPopup";
 
-const categories = ["All", "HTML & CSS", "JavaScript", "ReactJS", "NodeJS"];
+const categories = ["All", "HTML & CSS", "JavaScript", "ReactJS", "NextJS"];
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
