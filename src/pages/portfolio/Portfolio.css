@@ -1,5 +1,11 @@
+.portfolio {
+  margin: 20px;
+  font-family: "system-ui";
+
+  height: 520px;
+}
+
 .portfolio-container {
-  padding: 20px;
   font-family: "system-ui";
 }
 .portfolio-title {
@@ -23,7 +29,7 @@
 .portfolio-main {
   /* background-color: antiquewhite; */
   margin-top: 20px;
-  height: 460px;
+  height: 450px;
 
   display: flex;
   flex-direction: column;
