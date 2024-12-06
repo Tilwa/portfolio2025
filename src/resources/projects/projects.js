@@ -22,26 +22,24 @@ import usepopcorn3 from "../images/react/usepopcorn/usepopcorn3.png";
 import usepopcorn4 from "../images/react/usepopcorn/usepopcorn4.png";
 import usepopcorn5 from "../images/react/usepopcorn/usepopcorn5.png";
 
+// react quiz app
+import reactQuiz1 from "../images/react/reactQuiz/react-quiz1.png";
+import reactQuiz2 from "../images/react/reactQuiz/react-quiz2.png";
+import reactQuiz3 from "../images/react/reactQuiz/react-quiz3.png";
+import reactQuiz4 from "../images/react/reactQuiz/react-quiz4.png";
+
 //"All", "HTML & CSS", "JavaScript", "ReactJS", "NodeJS"
 export const projects = [
   {
     id: 1,
-    title: "Random Quote Generator",
+    title: "The React Quiz",
     category: "ReactJS",
-    image: Image1,
-    images: [Image1, Image2, Image3],
-    link: "https://random-quotes-mocha-six.vercel.app/",
+    image: reactQuiz1,
+    images: [reactQuiz1, reactQuiz2, reactQuiz3, reactQuiz4],
+    link: "https://react-quiz-chi-pink.vercel.app/",
   },
   {
     id: 2,
-    title: "React Dashboard (Design Only)",
-    category: "ReactJS",
-    image: Dashboard1,
-    images: [Dashboard1, Dashboard2, Dashboard3, Dashboard4],
-    link: "https://dashboard-delta-pearl.vercel.app/dashboard",
-  },
-  {
-    id: 3,
     title: "Travel Todo List",
     category: "ReactJS",
     image: travelTodoList4,
@@ -54,11 +52,27 @@ export const projects = [
     link: "https://travel-todo-list-nine.vercel.app/",
   },
   {
-    id: 4,
+    id: 3,
     title: "IMDB Movies Search Engine",
     category: "ReactJS",
     image: usepopcorn1,
     images: [usepopcorn1, usepopcorn2, usepopcorn3, usepopcorn4, usepopcorn5],
     link: "https://use-popcorn-five-jet.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "React Dashboard (Design Only)",
+    category: "ReactJS",
+    image: Dashboard1,
+    images: [Dashboard1, Dashboard2, Dashboard3, Dashboard4],
+    link: "https://dashboard-delta-pearl.vercel.app/dashboard",
+  },
+  {
+    id: 5,
+    title: "Random Quote Generator",
+    category: "ReactJS",
+    image: Image1,
+    images: [Image1, Image2, Image3],
+    link: "https://random-quotes-mocha-six.vercel.app/",
   },
 ];
