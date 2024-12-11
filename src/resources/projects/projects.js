@@ -1,3 +1,12 @@
+// html-css omnifood
+import omnifood1 from "../images/html-css/omnifood/omnifood1.png";
+import omnifood2 from "../images/html-css/omnifood/omnifood2.png";
+import omnifood3 from "../images/html-css/omnifood/omnifood3.png";
+import omnifood4 from "../images/html-css/omnifood/omnifood4.png";
+import omnifood5 from "../images/html-css/omnifood/omnifood5.png";
+import omnifood6 from "../images/html-css/omnifood/omnifood6.png";
+import omnifood7 from "../images/html-css/omnifood/omnifood7.png";
+
 // react random quotes
 import Image1 from "../images/react/randomQuotes/random-quotes1.png";
 import Image2 from "../images/react/randomQuotes/random-quotes2.png";
@@ -74,5 +83,21 @@ export const projects = [
     image: Image1,
     images: [Image1, Image2, Image3],
     link: "https://random-quotes-mocha-six.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Omnifood Website",
+    category: "HTML & CSS",
+    image: omnifood1,
+    images: [
+      omnifood1,
+      omnifood2,
+      omnifood3,
+      omnifood4,
+      omnifood5,
+      omnifood6,
+      omnifood7,
+    ],
+    link: "https://omnifood-ten-roan.vercel.app/",
   },
 ];
