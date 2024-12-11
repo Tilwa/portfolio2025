@@ -1,16 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio2025/static/css/main.6ccdbdec.css",
-    "main.js": "/portfolio2025/static/js/main.33c16817.js",
+    "main.js": "/portfolio2025/static/js/main.8af5cb31.js",
+    "static/media/omnifood7.png": "/portfolio2025/static/media/omnifood7.d3b30e00c60677db4e10.png",
+    "static/media/omnifood1.png": "/portfolio2025/static/media/omnifood1.9745ae80f58d04f6b813.png",
     "static/media/profilePic2.png": "/portfolio2025/static/media/profilePic2.be8ca35106e665497f3b.png",
+    "static/media/omnifood5.png": "/portfolio2025/static/media/omnifood5.67c76479a488f0de5717.png",
     "static/media/notFound.png": "/portfolio2025/static/media/notFound.2af4c205ca3ffe1899e7.png",
     "static/media/dashboard2.png": "/portfolio2025/static/media/dashboard2.8cc93d54adfa4f0c9436.png",
     "static/media/usepopcorn2.png": "/portfolio2025/static/media/usepopcorn2.7a3026c290a8128ec5bc.png",
     "static/media/usepopcorn4.png": "/portfolio2025/static/media/usepopcorn4.f2fef4552a469080676c.png",
     "static/media/usepopcorn1.png": "/portfolio2025/static/media/usepopcorn1.50f590902a30531d8868.png",
+    "static/media/omnifood4.png": "/portfolio2025/static/media/omnifood4.1d221f2cbe27ee253470.png",
+    "static/media/omnifood3.png": "/portfolio2025/static/media/omnifood3.dff7db13333e54855338.png",
     "static/media/usepopcorn3.png": "/portfolio2025/static/media/usepopcorn3.3e6ef5be4f763fb974b7.png",
     "static/media/dashboard1.png": "/portfolio2025/static/media/dashboard1.611086deae83ea8ab879.png",
+    "static/media/omnifood2.png": "/portfolio2025/static/media/omnifood2.15f82fcf04920f7af610.png",
     "static/media/dashboard4.png": "/portfolio2025/static/media/dashboard4.694914f72ce081b50dd9.png",
+    "static/media/omnifood6.png": "/portfolio2025/static/media/omnifood6.010225302f4e4e8002d9.png",
     "static/media/travelTodoList2.png": "/portfolio2025/static/media/travelTodoList2.d73800f64f615f4553c9.png",
     "static/media/travelTodoList3.png": "/portfolio2025/static/media/travelTodoList3.d32227f0b09a5324009d.png",
     "static/media/travelTodoList4.png": "/portfolio2025/static/media/travelTodoList4.d2f5d98fd0e1ab4d2366.png",
@@ -26,10 +33,10 @@
     "static/media/usepopcorn5.png": "/portfolio2025/static/media/usepopcorn5.aa4579703bb64d96e496.png",
     "index.html": "/portfolio2025/index.html",
     "main.6ccdbdec.css.map": "/portfolio2025/static/css/main.6ccdbdec.css.map",
-    "main.33c16817.js.map": "/portfolio2025/static/js/main.33c16817.js.map"
+    "main.8af5cb31.js.map": "/portfolio2025/static/js/main.8af5cb31.js.map"
   },
   "entrypoints": [
     "static/css/main.6ccdbdec.css",
-    "static/js/main.33c16817.js"
+    "static/js/main.8af5cb31.js"
   ]
 }
