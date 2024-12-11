@@ -66,7 +66,7 @@ const Skills = () => {
         </div>
         <div className="skills-bars-columns">
           <div className="bar-top">
-            <div>Node.js</div>
+            <div>Next.js</div>
             <div>50 %</div>
           </div>
           <div className="bar-color">

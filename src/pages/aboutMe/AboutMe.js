@@ -17,10 +17,11 @@ const AboutMe = () => {
           <h6 className="history-title"> Summary</h6>
           <ul className="remove-dots">
             <li>
-              Web developer with a problem-solving focus towards the development
-              of application and alsopassionate about crafting sites with a
-              focus on accessibility, stylish UI’s and no friction UX. Focused
-              on utilizing the power of web fundamentals
+              Innovative web developer with a problem-solving mindset, dedicated
+              to designing and developing applications. Passionate about
+              creating accessible websites, elegant user interfaces, and
+              frictionless user experiences. Committed to harnessing the power
+              of web fundamentals for impactful and efficient solutions
             </li>
           </ul>
         </div>
