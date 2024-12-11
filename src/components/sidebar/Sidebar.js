@@ -72,7 +72,7 @@ const Sidebar = () => {
           </a>
         </div>
         <a
-          href="https://drive.google.com/file/d/1A45wR__LqH5B1HKEwVi-WYrj0GWBwozX/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1Tqp4Ny9ALvyGAYLNlO3e-Y_OIS2iJgDk/view?usp=sharing"
           style={{ textDecoration: "none" }}
         >
           <div id="download-cv">
