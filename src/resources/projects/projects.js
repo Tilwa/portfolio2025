@@ -37,6 +37,12 @@ import reactQuiz2 from "../images/react/reactQuiz/react-quiz2.png";
 import reactQuiz3 from "../images/react/reactQuiz/react-quiz3.png";
 import reactQuiz4 from "../images/react/reactQuiz/react-quiz4.png";
 
+// react worldwise
+import worldwise1 from "../images/react/worldwise/worldwise1.png";
+import worldwise2 from "../images/react/worldwise/worldwise2.png";
+import worldwise3 from "../images/react/worldwise/worldwise3.png";
+import worldwise4 from "../images/react/worldwise/worldwise4.png";
+
 //"All", "HTML & CSS", "JavaScript", "ReactJS", "NodeJS"
 export const projects = [
   {
@@ -70,6 +76,14 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Worldwise world map for tourists",
+    category: "ReactJS",
+    image: worldwise1,
+    images: [worldwise1, worldwise2, worldwise3, worldwise4],
+    link: "https://worldwise-three-chi.vercel.app/",
+  },
+  {
+    id: 5,
     title: "React Dashboard (Design Only)",
     category: "ReactJS",
     image: Dashboard1,
@@ -77,7 +91,7 @@ export const projects = [
     link: "https://dashboard-delta-pearl.vercel.app/dashboard",
   },
   {
-    id: 5,
+    id: 6,
     title: "Random Quote Generator",
     category: "ReactJS",
     image: Image1,
@@ -85,7 +99,7 @@ export const projects = [
     link: "https://random-quotes-mocha-six.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Omnifood Website",
     category: "HTML & CSS",
     image: omnifood1,
