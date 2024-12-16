@@ -1,9 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio2025/static/css/main.6ccdbdec.css",
-    "main.js": "/portfolio2025/static/js/main.8af5cb31.js",
+    "main.js": "/portfolio2025/static/js/main.6754baf2.js",
+    "static/media/worldwise1.png": "/portfolio2025/static/media/worldwise1.aa504e34eb91a9fd31f2.png",
+    "static/media/worldwise3.png": "/portfolio2025/static/media/worldwise3.b7c77c0b8e8646456676.png",
     "static/media/omnifood7.png": "/portfolio2025/static/media/omnifood7.d3b30e00c60677db4e10.png",
     "static/media/omnifood1.png": "/portfolio2025/static/media/omnifood1.9745ae80f58d04f6b813.png",
+    "static/media/worldwise4.png": "/portfolio2025/static/media/worldwise4.ad0724ad898a031e054b.png",
     "static/media/profilePic2.png": "/portfolio2025/static/media/profilePic2.be8ca35106e665497f3b.png",
     "static/media/omnifood5.png": "/portfolio2025/static/media/omnifood5.67c76479a488f0de5717.png",
     "static/media/notFound.png": "/portfolio2025/static/media/notFound.2af4c205ca3ffe1899e7.png",
@@ -31,12 +34,13 @@
     "static/media/random-quotes3.png": "/portfolio2025/static/media/random-quotes3.c0f9845817b24784cfea.png",
     "static/media/random-quotes1.png": "/portfolio2025/static/media/random-quotes1.c37acc8333a8b248236b.png",
     "static/media/usepopcorn5.png": "/portfolio2025/static/media/usepopcorn5.aa4579703bb64d96e496.png",
+    "static/media/worldwise2.png": "/portfolio2025/static/media/worldwise2.baac6d5b1f122a22e0cb.png",
     "index.html": "/portfolio2025/index.html",
     "main.6ccdbdec.css.map": "/portfolio2025/static/css/main.6ccdbdec.css.map",
-    "main.8af5cb31.js.map": "/portfolio2025/static/js/main.8af5cb31.js.map"
+    "main.6754baf2.js.map": "/portfolio2025/static/js/main.6754baf2.js.map"
   },
   "entrypoints": [
     "static/css/main.6ccdbdec.css",
-    "static/js/main.8af5cb31.js"
+    "static/js/main.6754baf2.js"
   ]
 }
