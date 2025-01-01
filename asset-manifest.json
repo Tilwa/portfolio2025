@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2025/static/css/main.6ccdbdec.css",
-    "main.js": "/portfolio2025/static/js/main.6754baf2.js",
+    "main.js": "/portfolio2025/static/js/main.13d09051.js",
     "static/media/worldwise1.png": "/portfolio2025/static/media/worldwise1.aa504e34eb91a9fd31f2.png",
     "static/media/worldwise3.png": "/portfolio2025/static/media/worldwise3.b7c77c0b8e8646456676.png",
     "static/media/omnifood7.png": "/portfolio2025/static/media/omnifood7.d3b30e00c60677db4e10.png",
@@ -37,10 +37,10 @@
     "static/media/worldwise2.png": "/portfolio2025/static/media/worldwise2.baac6d5b1f122a22e0cb.png",
     "index.html": "/portfolio2025/index.html",
     "main.6ccdbdec.css.map": "/portfolio2025/static/css/main.6ccdbdec.css.map",
-    "main.6754baf2.js.map": "/portfolio2025/static/js/main.6754baf2.js.map"
+    "main.13d09051.js.map": "/portfolio2025/static/js/main.13d09051.js.map"
   },
   "entrypoints": [
     "static/css/main.6ccdbdec.css",
-    "static/js/main.6754baf2.js"
+    "static/js/main.13d09051.js"
   ]
 }
