@@ -43,6 +43,13 @@ import worldwise2 from "../images/react/worldwise/worldwise2.png";
 import worldwise3 from "../images/react/worldwise/worldwise3.png";
 import worldwise4 from "../images/react/worldwise/worldwise4.png";
 
+// nextjs crud
+import nextjsCrud1 from "../images/nextjs/crud/nextjs-crud-1.png";
+import nextjsCrud2 from "../images/nextjs/crud/nextjs-crud-2.png";
+import nextjsCrud3 from "../images/nextjs/crud/nextjs-crud-3.png";
+import nextjsCrud4 from "../images/nextjs/crud/nextjs-crud-4.png";
+import nextjsCrud5 from "../images/nextjs/crud/nextjs-crud-5.png";
+
 //"All", "HTML & CSS", "JavaScript", "ReactJS", "NodeJS"
 export const projects = [
   {
@@ -113,5 +120,13 @@ export const projects = [
       omnifood7,
     ],
     link: "https://omnifood-ten-roan.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Nextjs Basic CRUD Application",
+    category: "NextJS",
+    image: nextjsCrud1,
+    images: [nextjsCrud1, nextjsCrud2, nextjsCrud3, nextjsCrud4, nextjsCrud5],
+    link: "https://nextjs-crud-ten-ecru.vercel.app/",
   },
 ];
