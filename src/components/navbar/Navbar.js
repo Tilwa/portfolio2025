@@ -56,6 +56,9 @@ const Navbar = () => {
             <Link to="/portfolio2025/experience">Experience</Link>
           </li>
           <li>
+            <Link to="/portfolio2025/about">About</Link>
+          </li>
+          <li>
             <Link to="/portfolio2025/education">Education</Link>
           </li>
           <li>

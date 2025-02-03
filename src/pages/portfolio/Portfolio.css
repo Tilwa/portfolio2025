@@ -33,6 +33,8 @@
 
   display: flex;
   flex-direction: column;
+  background-color: rgba(0, 178, 215, 0.04);
+  border-radius: 15px;
 }
 
 .filter-buttons {
@@ -60,11 +62,12 @@
 /* Basic container styling */
 .posts-container {
   display: flex;
-  gap: 20px;
-  padding: 10px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+
   overflow-y: auto; /* Enable vertical scrolling for the entire section */
   overflow-x: hidden; /* Prevent horizontal scrolling */
   overflow: -moz-scrollbars-none; /* For Firefox */
