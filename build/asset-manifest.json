@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2025/static/css/main.ab2ef0ff.css",
-    "main.js": "/portfolio2025/static/js/main.cbf6d2c1.js",
+    "main.js": "/portfolio2025/static/js/main.26428189.js",
     "static/media/worldwise1.png": "/portfolio2025/static/media/worldwise1.aa504e34eb91a9fd31f2.png",
     "static/media/worldwise3.png": "/portfolio2025/static/media/worldwise3.b7c77c0b8e8646456676.png",
     "static/media/omnifood7.png": "/portfolio2025/static/media/omnifood7.d3b30e00c60677db4e10.png",
@@ -10,12 +10,17 @@
     "static/media/profilePic2.png": "/portfolio2025/static/media/profilePic2.be8ca35106e665497f3b.png",
     "static/media/omnifood5.png": "/portfolio2025/static/media/omnifood5.67c76479a488f0de5717.png",
     "static/media/notFound.png": "/portfolio2025/static/media/notFound.2af4c205ca3ffe1899e7.png",
+    "static/media/modal-window-open-1.png": "/portfolio2025/static/media/modal-window-open-1.5fce27cb826b8ed3e95c.png",
+    "static/media/dice-game-3.png": "/portfolio2025/static/media/dice-game-3.a3648aaabfa99af20ae7.png",
+    "static/media/dice-game-2.png": "/portfolio2025/static/media/dice-game-2.c88de1b59eabbbc92422.png",
+    "static/media/dice-game-1.png": "/portfolio2025/static/media/dice-game-1.8f9b5dad2d7429412a19.png",
     "static/media/dashboard2.png": "/portfolio2025/static/media/dashboard2.8cc93d54adfa4f0c9436.png",
     "static/media/usepopcorn2.png": "/portfolio2025/static/media/usepopcorn2.7a3026c290a8128ec5bc.png",
     "static/media/usepopcorn4.png": "/portfolio2025/static/media/usepopcorn4.f2fef4552a469080676c.png",
     "static/media/usepopcorn1.png": "/portfolio2025/static/media/usepopcorn1.50f590902a30531d8868.png",
     "static/media/omnifood4.png": "/portfolio2025/static/media/omnifood4.1d221f2cbe27ee253470.png",
     "static/media/omnifood3.png": "/portfolio2025/static/media/omnifood3.dff7db13333e54855338.png",
+    "static/media/modal-window-open-2.png": "/portfolio2025/static/media/modal-window-open-2.909760954ecb4255e568.png",
     "static/media/usepopcorn3.png": "/portfolio2025/static/media/usepopcorn3.3e6ef5be4f763fb974b7.png",
     "static/media/dashboard1.png": "/portfolio2025/static/media/dashboard1.611086deae83ea8ab879.png",
     "static/media/omnifood2.png": "/portfolio2025/static/media/omnifood2.15f82fcf04920f7af610.png",
@@ -34,6 +39,9 @@
     "static/media/random-quotes3.png": "/portfolio2025/static/media/random-quotes3.c0f9845817b24784cfea.png",
     "static/media/random-quotes1.png": "/portfolio2025/static/media/random-quotes1.c37acc8333a8b248236b.png",
     "static/media/nextjs-crud-4.png": "/portfolio2025/static/media/nextjs-crud-4.f6bf2eb42ae787067cc3.png",
+    "static/media/guess-the-number-3.png": "/portfolio2025/static/media/guess-the-number-3.a9489fe94fe73e1b6c0c.png",
+    "static/media/guess-the-number-2.png": "/portfolio2025/static/media/guess-the-number-2.0901d80f89e19ed6d25f.png",
+    "static/media/guess-the-number-1.png": "/portfolio2025/static/media/guess-the-number-1.a6b1b21534c1a5e4ab0c.png",
     "static/media/nextjs-crud-3.png": "/portfolio2025/static/media/nextjs-crud-3.d75d9880ff0de9ccea16.png",
     "static/media/usepopcorn5.png": "/portfolio2025/static/media/usepopcorn5.aa4579703bb64d96e496.png",
     "static/media/nextjs-crud-2.png": "/portfolio2025/static/media/nextjs-crud-2.fae86271ee37771efc7e.png",
@@ -42,10 +50,10 @@
     "static/media/nextjs-crud-1.png": "/portfolio2025/static/media/nextjs-crud-1.cfac6e9e99b167b1d32b.png",
     "index.html": "/portfolio2025/index.html",
     "main.ab2ef0ff.css.map": "/portfolio2025/static/css/main.ab2ef0ff.css.map",
-    "main.cbf6d2c1.js.map": "/portfolio2025/static/js/main.cbf6d2c1.js.map"
+    "main.26428189.js.map": "/portfolio2025/static/js/main.26428189.js.map"
   },
   "entrypoints": [
     "static/css/main.ab2ef0ff.css",
-    "static/js/main.cbf6d2c1.js"
+    "static/js/main.26428189.js"
   ]
 }
