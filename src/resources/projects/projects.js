@@ -50,6 +50,20 @@ import nextjsCrud3 from "../images/nextjs/crud/nextjs-crud-3.png";
 import nextjsCrud4 from "../images/nextjs/crud/nextjs-crud-4.png";
 import nextjsCrud5 from "../images/nextjs/crud/nextjs-crud-5.png";
 
+// javascript guess-the-number
+import guessTheNumber1 from "../images/javascript/guess-the-number/guess-the-number-1.png";
+import guessTheNumber2 from "../images/javascript/guess-the-number/guess-the-number-2.png";
+import guessTheNumber3 from "../images/javascript/guess-the-number/guess-the-number-3.png";
+
+// javascript modal-window-open
+import modalWindowOpen1 from "../images/javascript/modal-window-open/modal-window-open-1.png";
+import modalWindowOpen2 from "../images/javascript/modal-window-open/modal-window-open-2.png";
+
+// javascript dice-game
+import diceGame1 from "../images/javascript/dice-game/dice-game-1.png";
+import diceGame2 from "../images/javascript/dice-game/dice-game-2.png";
+import diceGame3 from "../images/javascript/dice-game/dice-game-3.png";
+
 //"All", "HTML & CSS", "JavaScript", "ReactJS", "NodeJS"
 export const projects = [
   {
@@ -128,5 +142,29 @@ export const projects = [
     image: nextjsCrud1,
     images: [nextjsCrud1, nextjsCrud2, nextjsCrud3, nextjsCrud4, nextjsCrud5],
     link: "https://nextjs-crud-ten-ecru.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Guess the Number Game",
+    category: "JavaScript",
+    image: guessTheNumber1,
+    images: [guessTheNumber1, guessTheNumber2, guessTheNumber3],
+    link: "https://guess-the-number-js-game.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Modal Window Open",
+    category: "JavaScript",
+    image: modalWindowOpen1,
+    images: [modalWindowOpen1, modalWindowOpen2],
+    link: "https://modal-window-open.vercel.app/",
+  },
+  {
+    id: 11,
+    title: "Dice Game",
+    category: "JavaScript",
+    image: diceGame1,
+    images: [diceGame1, diceGame2, diceGame3],
+    link: "https://dice-game-js-six.vercel.app/",
   },
 ];
